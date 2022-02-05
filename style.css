@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card__mainFrame {
+  overflow: hidden;
+  border: 1px solid gray;
+  border-radius: 10px;
+  position: relative;
+  width: 510px;
+  height: 280px;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+}
+
+.mainFrame__one {
+  background-color: #fdfffa;
+  border-bottom: 5px solid rgb(200, 243, 136);
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.one__box1 {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.one__box1 p {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.one__box2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  justify-content: flex-end;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.one__box2 p {
+  font-weight: bold;
+}
+
+.mainFrame__two {
+  background-color: #29323b;
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+
+.two__box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2;
+  padding-left: 20px;
+  color: white;
+}
+
+.two__box2 link {
+  display: block;
+  text-decoration: none;
+}
+
+.mainFrame__hoverBox {
+  position: absolute;
+  height: 100%;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBox {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(200, 243, 136);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+backgroung: white;
+width: 150px:;
+height: 150px;
+border-radius :50%;
+border: 5px solid rgb(200, 243 , 136 );
+over-flow: 
